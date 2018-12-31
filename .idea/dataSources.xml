@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="dietactics@localhost" uuid="3ac8ad81-0b85-4ddf-b2ba-6d97081fbf28">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/dietactics</jdbc-url>
+      <driver-properties>
+        <property name="autoReconnect" value="true" />
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+        <property name="characterEncoding" value="utf8" />
+        <property name="characterSetResults" value="utf8" />
+        <property name="yearIsDateType" value="false" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="Dietactics" uuid="78ced130-4466-4c4a-9ebf-08239411d628">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\Edukacja\Studia pierwszego stopnia\Praca inżynierska\Diagramy\Dietactics.vpp</jdbc-url>
+      <driver-properties>
+        <property name="enable_load_extension" value="true" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="Dietactics.vpp" uuid="801b871f-aa1b-4ffd-98ab-7bdffa58603a">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\Edukacja\Studia pierwszego stopnia\Praca inżynierska\Diagramy\Dietactics.vpp.bak_000f</jdbc-url>
+      <driver-properties>
+        <property name="enable_load_extension" value="true" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="Dietactics.vpp [2]" uuid="f726e2a5-5d36-448f-8ca9-675fe01a6d0a">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\Edukacja\Studia pierwszego stopnia\Praca inżynierska\Diagramy\Dietactics.vpp.bak_001d</jdbc-url>
+      <driver-properties>
+        <property name="enable_load_extension" value="true" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="Dietactics.vpp [3]" uuid="38c538e6-4d50-439d-9d78-aa5485ed805b">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\Edukacja\Studia pierwszego stopnia\Praca inżynierska\Diagramy\Dietactics.vpp.bak_002d</jdbc-url>
+      <driver-properties>
+        <property name="enable_load_extension" value="true" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="Dietactics.vpp [4]" uuid="54ad521c-d4f2-4dca-93ad-4b5073d549ed">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\Edukacja\Studia pierwszego stopnia\Praca inżynierska\Diagramy\Dietactics.vpp.bak_003d</jdbc-url>
+      <driver-properties>
+        <property name="enable_load_extension" value="true" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="Dietactics.vpp [5]" uuid="1d3563c6-6824-4f62-b567-1717653dc321">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\Edukacja\Studia pierwszego stopnia\Praca inżynierska\Diagramy\Dietactics.vpp.bak_004d</jdbc-url>
+      <driver-properties>
+        <property name="enable_load_extension" value="true" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="Dietactics.vpp [6]" uuid="358b2ced-212d-4e6d-85d8-a4f91d0cacd8">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\Edukacja\Studia pierwszego stopnia\Praca inżynierska\Diagramy\Dietactics.vpp.bak_005d</jdbc-url>
+      <driver-properties>
+        <property name="enable_load_extension" value="true" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="Dietactics.vpp [7]" uuid="c83f8f85-da77-4acf-bc57-7d4e3ea23d5b">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\Edukacja\Studia pierwszego stopnia\Praca inżynierska\Diagramy\Dietactics.vpp.bak_006d</jdbc-url>
+      <driver-properties>
+        <property name="enable_load_extension" value="true" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="Dietactics.vpp [8]" uuid="c7d84017-2659-435a-aaed-0523c6d0751b">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\Edukacja\Studia pierwszego stopnia\Praca inżynierska\Diagramy\Dietactics.vpp.bak_007d</jdbc-url>
+      <driver-properties>
+        <property name="enable_load_extension" value="true" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="Dietactics.vpp [9]" uuid="7fb869b7-7884-470c-a9fd-f80299452172">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\Edukacja\Studia pierwszego stopnia\Praca inżynierska\Diagramy\Dietactics.vpp.bak_008d</jdbc-url>
+      <driver-properties>
+        <property name="enable_load_extension" value="true" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="Dietactics.vpp [10]" uuid="38702670-1b10-4202-8c5b-382296ac4e14">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\Edukacja\Studia pierwszego stopnia\Praca inżynierska\Diagramy\Dietactics.vpp.bak_009d</jdbc-url>
+      <driver-properties>
+        <property name="enable_load_extension" value="true" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="Dietactics.vpp [11]" uuid="7a6f7801-2202-4b93-a9e7-f05c2babb229">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\Edukacja\Studia pierwszego stopnia\Praca inżynierska\Diagramy\Dietactics.vpp.bak_010d</jdbc-url>
+      <driver-properties>
+        <property name="enable_load_extension" value="true" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="Dietactics.vpp [12]" uuid="a0384bdc-35b3-4b37-8f1f-500642c7f8b8">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\Edukacja\Studia pierwszego stopnia\Praca inżynierska\Diagramy\Dietactics.vpp.bak_011d</jdbc-url>
+      <driver-properties>
+        <property name="enable_load_extension" value="true" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="Dietactics.vpp [13]" uuid="47df4dbc-6376-4170-b0a0-5d93ccef5d90">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\Edukacja\Studia pierwszego stopnia\Praca inżynierska\Diagramy\Dietactics.vpp.bak_012d</jdbc-url>
+      <driver-properties>
+        <property name="enable_load_extension" value="true" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="Dietactics.vpp [14]" uuid="bfc08699-b76e-4fc2-908a-c25286587db6">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\Edukacja\Studia pierwszego stopnia\Praca inżynierska\Diagramy\Dietactics.vpp.bak_013d</jdbc-url>
+      <driver-properties>
+        <property name="enable_load_extension" value="true" />
+      </driver-properties>
+    </data-source>
+  </component>
+</project>

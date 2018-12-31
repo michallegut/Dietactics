@@ -1,0 +1,1432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="dietactics:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3ed4c927-c1c9-4fa0-aea5-2e7ba384fb5d" name="Default Changelist" comment="Fix">
+      <change beforePath="$PROJECT_DIR$/../Diagramy/.Dietactics.vpp.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diagramy/Dietactics.vpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Diagramy/Dietactics.vpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Praca/~$25.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Praca/~$26.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dietactics_war/dietactics_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dietactics_war/dietactics_war.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dietactics/presentation/controller/servlets/EditProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dietactics/presentation/controller/servlets/EditProductServlet.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1872093029">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="38" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.192" value="1" />
+          <entry key="project.open.time.2" value="5" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.43" value="2" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.53" value="2" />
+          <entry key="project.open.time.61" value="2" />
+          <entry key="project.open.time.62" value="1" />
+          <entry key="project.open.time.64" value="2" />
+          <entry key="project.open.time.65" value="4" />
+          <entry key="project.open.time.66" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.70" value="1" />
+          <entry key="project.open.time.75" value="1" />
+          <entry key="project.open.time.77" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.81" value="1" />
+          <entry key="project.open.time.87" value="2" />
+          <entry key="project.opened" value="38" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="MF" value="2" />
+          <entry key="css" value="9" />
+          <entry key="html" value="2" />
+          <entry key="iml" value="2" />
+          <entry key="java" value="651" />
+          <entry key="js" value="3" />
+          <entry key="json" value="1" />
+          <entry key="jsp" value="338" />
+          <entry key="png" value="1" />
+          <entry key="sql" value="2" />
+          <entry key="txt" value="1" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="9" />
+          <entry key="Enforced Plain Text" value="2" />
+          <entry key="HTML" value="2" />
+          <entry key="IDEA_MODULE" value="2" />
+          <entry key="Image" value="1" />
+          <entry key="JAVA" value="651" />
+          <entry key="JSON" value="1" />
+          <entry key="JSP" value="336" />
+          <entry key="JavaScript" value="3" />
+          <entry key="Manifest" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="SQL" value="1" />
+          <entry key="Scratch" value="1" />
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="273" />
+          <entry key="dummy" value="296" />
+          <entry key="html" value="54" />
+          <entry key="java" value="19326" />
+          <entry key="jsp" value="27759" />
+          <entry key="sql" value="2" />
+          <entry key="txt" value="1686" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="273" />
+          <entry key="Enforced Plain Text" value="62" />
+          <entry key="HTML" value="54" />
+          <entry key="JAVA" value="19326" />
+          <entry key="JSP" value="27697" />
+          <entry key="PLAIN_TEXT" value="1982" />
+          <entry key="SQL" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="dietactics" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mealPlanAssignmentEntities</find>
+      <find>ł</find>
+      <find>user</find>
+      <find>mealPlanAssign</find>
+      <find>request.getAtt</find>
+      <find>userEntity</find>
+      <find>UserEntity</find>
+      <find>nextMealPlanAssignmentEntity</find>
+      <find>&quot;activ</find>
+      <find>date</find>
+      <find>type=&quot;button</find>
+      <find>calendar</find>
+      <find>currentMonth</find>
+      <find>username</find>
+      <find>z</find>
+      <find>&lt;a href</find>
+      <find>zapisz</find>
+      <find>collapse</find>
+      <find>e.printStackTrace();</find>
+      <find>getParam</find>
+      <find>doGet</find>
+      <find>DAO</find>
+      <find>getKilocalories</find>
+      <find>import com.dietactics.utilities.TemporaryEntities;</find>
+      <find>TemporaryEntities</find>
+      <find>Te</find>
+      <find>TemporaryModels</find>
+      <find>com.dietactics.utilities</find>
+      <find>escapeX</find>
+      <find>c:out</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>nextAssignedPlanEntity</replace>
+      <replace>temporaryMealPlanEntity</replace>
+      <replace>nextDate</replace>
+      <replace>M</replace>
+      <replace>meal</replace>
+      <replace>nextAssignedMealPlanEntity</replace>
+      <replace>Meal</replace>
+      <replace>sendRedirect(&quot;index&quot;);</replace>
+      <replace>if (request.getAttribute(&quot;</replace>
+      <replace>.sendRedirect(&quot;unexpectedError&quot;)</replace>
+      <replace>index</replace>
+      <replace>weightDaybook</replace>
+      <replace>schedule</replace>
+      <replace>profile</replace>
+      <replace>products</replace>
+      <replace>meals</replace>
+      <replace>mealPlans</replace>
+      <replace>editProduct</replace>
+      <replace>editMealPlan</replace>
+      <replace>editMeal</replace>
+      <replace>addProduct</replace>
+      <replace>addMealPlan</replace>
+      <replace>addMeal</replace>
+      <replace>request.getAttribute</replace>
+      <replace>log.error(e);</replace>
+      <replace>import com.dietactics.utilities.TemporaryEntities;</replace>
+      <replace>import com.dietactics.presentation.model.TemporaryEntities;</replace>
+      <replace>TemporaryModels</replace>
+      <replace>com.dietactics.utilities</replace>
+      <replace>com.dietactics.presentation.model</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\Edukacja\Studia pierwszego stopnia\Praca inżynierska\dietactics\src\com\dietactics\controller</dir>
+      <dir>D:\Edukacja\Studia pierwszego stopnia\Praca inżynierska\dietactics\src\com\dietactics\controller\servlets</dir>
+      <dir>D:\Edukacja\Studia pierwszego stopnia\Praca inżynierska\dietactics\src\com\dietactics\model\dao</dir>
+      <dir>D:\Edukacja\Studia pierwszego stopnia\Praca inżynierska\dietactics\src\com\dietactics\model\entities</dir>
+      <dir>D:\Edukacja\Studia pierwszego stopnia\Praca inżynierska\dietactics\src\com\dietactics\utilities</dir>
+      <dir>D:\Edukacja\Studia pierwszego stopnia\Praca inżynierska\dietactics\web\layout</dir>
+      <dir>D:\Edukacja\Studia pierwszego stopnia\Praca inżynierska\dietactics\out</dir>
+      <dir>D:\Edukacja\Studia pierwszego stopnia\Praca inżynierska\dietactics\src\com\dietactics\controller\filters</dir>
+      <dir>D:\Edukacja\Studia pierwszego stopnia\Praca inżynierska\dietactics\web</dir>
+      <dir>D:\Edukacja\Studia pierwszego stopnia\Praca inżynierska\dietactics\src</dir>
+      <dir>D:\Edukacja\Studia pierwszego stopnia\Praca inżynierska\dietactics</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/dietactics/controller/servlets/RegisterServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/controller/servlets/weightDaybookServlet.java" />
+        <option value="$PROJECT_DIR$/web/layout/anonymousHeader.jsp" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/controller/servlets/AddProductServlet.java" />
+        <option value="$PROJECT_DIR$/web/layout/userHeader.jsp" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/model/entities/ProductInclusionEntity.java" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/controller/filters/AccessFilter.java" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/controller/servlets/AddMealServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/model/dao/MealPlanDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/controller/servlets/EditMealPlanServlet.java" />
+        <option value="$PROJECT_DIR$/web/editProduct.jsp" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/controller/servlets/MealPlansServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/controller/servlets/MealsServlet.java" />
+        <option value="$PROJECT_DIR$/web/meals.jsp" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/controller/servlets/ProductsServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/controller/servlets/ProfileServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/controller/servlets/WeightDaybookServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/controller/servlets/DeleteWeightRecordServlet.java" />
+        <option value="$PROJECT_DIR$/web/weightDaybook.jsp" />
+        <option value="$PROJECT_DIR$/web/mealPlans.jsp" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/controller/servlets/AddOrEditWeightRecordServlet.java" />
+        <option value="$PROJECT_DIR$/web/schedule.jsp" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/controller/servlets/ScheduleServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/model/entity/WeightRecordEntity.java" />
+        <option value="$PROJECT_DIR$/web/profile.jsp" />
+        <option value="$PROJECT_DIR$/web/addMealPlan.jsp" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/model/entities/MealInclusionEntity.java" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/controller/servlets/AddMealPlanServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/controller/servlets/DontStealServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/controller/servlets/EditMealServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/controller/servlets/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/controller/servlets/EditProductServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/controller/filters/TemporaryMealEntitiesFilter.java" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/controller/filters/TemporaryMealPlanEntitiesFilter.java" />
+        <option value="$PROJECT_DIR$/web/unexpectedError.jsp" />
+        <option value="$PROJECT_DIR$/web/dontSteal.jsp" />
+        <option value="$PROJECT_DIR$/web/editMealPlan.jsp" />
+        <option value="$PROJECT_DIR$/web/addMeal.jsp" />
+        <option value="$PROJECT_DIR$/web/editMeal.jsp" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/model/entities/MealPlanEntity.java" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/model/entities/MealEntity.java" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/utilities/DatabaseConnector.java" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/dataAccess/DatabaseConnector.java" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/utilities/TemporaryEntities.java" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/presentation/model/TemporaryEntities.java" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/presentation/model/TemporaryModels.java" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/presentation/controller/servlets/EditMealInclusionServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/data/dao/ProductInclusionDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/presentation/controller/servlets/EditProductServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/dietactics/data/dao/MealDAO.java" />
+        <option value="$PROJECT_DIR$/web/products.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JavaeeView">
+    <option name="frameworksView" value="false" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CheckEmptyScriptTag</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+    <entry key="Project Default copy">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dietactics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dietactics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dietactics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dietactics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dietactics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dietactics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dietactics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dietactics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dietactics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dietactics" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dietactics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dietactics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dietactics" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dietactics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dietactics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dietactics" type="462c0819:PsiDirectoryNode" />
+              <item name="presentation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dietactics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dietactics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dietactics" type="462c0819:PsiDirectoryNode" />
+              <item name="presentation" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dietactics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dietactics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dietactics" type="462c0819:PsiDirectoryNode" />
+              <item name="presentation" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="filters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dietactics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dietactics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dietactics" type="462c0819:PsiDirectoryNode" />
+              <item name="presentation" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="servlets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dietactics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dietactics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dietactics" type="462c0819:PsiDirectoryNode" />
+              <item name="presentation" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dietactics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dietactics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dietactics" type="462c0819:PsiDirectoryNode" />
+              <item name="presentation" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dietactics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dietactics" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542328931671" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mysql-connector-java-5.1.47.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Edukacja\Studia pierwszego stopnia\Praca inżynierska\dietactics\web\layout" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dietactics.controller.servlets" />
+      <recent name="com.dietactics.controller.filters" />
+      <recent name="com.dietactics.model.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Edukacja\Studia pierwszego stopnia\Praca inżynierska\dietactics\web" />
+      <recent name="D:\Edukacja\Studia pierwszego stopnia\Praca inżynierska\dietactics\lib" />
+      <recent name="D:\Edukacja\Studia pierwszego stopnia\Praca inżynierska\dietactics\web\vendor\chart" />
+      <recent name="D:\Edukacja\Studia pierwszego stopnia\Praca inżynierska\dietactics\web\layout" />
+      <recent name="D:\Edukacja\Studia pierwszego stopnia\Praca inżynierska\dietactics\web\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 7.0.56" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.56" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="COMMON_VM_ARGUMENTS" value="-Duser.timezone=GMT" />
+      <deployment>
+        <artifact name="dietactics:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_7_0_56_dietactics" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58060" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="dietactics:war exploded" />
+        </option>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="dietactics:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ed4c927-c1c9-4fa0-aea5-2e7ba384fb5d" name="Default Changelist" comment="" />
+      <created>1539020930820</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539020930820</updated>
+      <workItem from="1539020937336" duration="14200000" />
+      <workItem from="1539109231955" duration="14862000" />
+      <workItem from="1539128521598" duration="687000" />
+      <workItem from="1539160905889" duration="51000" />
+      <workItem from="1539189389550" duration="17039000" />
+      <workItem from="1539295968717" duration="6284000" />
+      <workItem from="1539348165882" duration="28911000" />
+      <workItem from="1539414374637" duration="19010000" />
+      <workItem from="1539446540421" duration="6747000" />
+      <workItem from="1539500873001" duration="4357000" />
+      <workItem from="1539512601287" duration="1950000" />
+      <workItem from="1539624245540" duration="14536000" />
+      <workItem from="1539802648855" duration="10541000" />
+      <workItem from="1539876009229" duration="3180000" />
+      <workItem from="1539978713074" duration="364000" />
+      <workItem from="1540018984319" duration="101000" />
+      <workItem from="1540221671685" duration="22027000" />
+      <workItem from="1540296167490" duration="32854000" />
+      <workItem from="1540451706882" duration="2929000" />
+      <workItem from="1540472737538" duration="39124000" />
+      <workItem from="1540556882786" duration="29433000" />
+      <workItem from="1540623117590" duration="353000" />
+      <workItem from="1540648224880" duration="314000" />
+      <workItem from="1540678068661" duration="700000" />
+      <workItem from="1540749122583" duration="954000" />
+      <workItem from="1540752140572" duration="401000" />
+      <workItem from="1540752637055" duration="15000" />
+      <workItem from="1540823651035" duration="10651000" />
+      <workItem from="1540840031421" duration="257000" />
+      <workItem from="1540842755398" duration="3644000" />
+      <workItem from="1540918542005" duration="963000" />
+      <workItem from="1541231751223" duration="101000" />
+      <workItem from="1541703381616" duration="286000" />
+      <workItem from="1541758558237" duration="2538000" />
+      <workItem from="1541764171885" duration="3139000" />
+      <workItem from="1542202828962" duration="769000" />
+      <workItem from="1542297855148" duration="12193000" />
+      <workItem from="1542329627000" duration="112000" />
+    </task>
+    <task id="LOCAL-00001" summary="Renamed &quot;limit&quot; to &quot;demand&quot;, added additional validation and XSS protection">
+      <created>1539302230997</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1539302230997</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Designed products,jsp view">
+      <created>1539361562134</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539361562134</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fished everything for products except filtering">
+      <created>1539382864863</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1539382864863</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added products filtering">
+      <created>1539421153959</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1539421153959</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Partially added views for dishes and meal plans, updated their DAOs">
+      <created>1539437969300</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1539437969300</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added additional inputs trimming and replacing comas, fixed filtering">
+      <created>1539458564809</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1539458564809</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fixed warnings and bugs">
+      <created>1539461023774</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1539461023774</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Improved filtering">
+      <created>1539462046513</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1539462046513</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Retried commit due to a bug">
+      <created>1539462187861</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1539462187861</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Implemented everything associated with dishes except saving created entity">
+      <created>1539813674179</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1539813674179</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Completed dishes">
+      <created>1540231337018</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1540231337018</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Completed meal plans and schedule, but there is a problem with date synchronization between the app and the database">
+      <created>1540330715231</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1540330715231</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Finished weight daybook and part of renaming dish to meal">
+      <created>1540498155256</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1540498155256</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Finished renaming dish to meal, cleaned code and resolved warnings">
+      <created>1540504171459</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1540504171459</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added sorting during addition and creation of meals and meal plans, added dropdown lists with products on pages associated with meal plans">
+      <created>1540512908715</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1540512908715</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added time zone synchronization, changing app to MVC model">
+      <created>1540566489505</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1540566489505</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Reverted to the state before starting MVC changes">
+      <created>1540566788105</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1540566788105</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Added doGet servlet method for every .jsp file, changed some words that commission might not like">
+      <created>1540570625851</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1540570625851</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Version 1.0 finished">
+      <created>1540589763605</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1540589763605</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Added war artifact">
+      <created>1540750038054</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1540750038054</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Changed MySQL connctor, added authentication to product, meal and meal plan edition. Version v1.1 finished">
+      <created>1540839830774</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1540839830774</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Fixed bug with counting everything">
+      <created>1540845254004</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1540845254004</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Fixed a bug with displaying calories in 100g of a meal">
+      <created>1540846447737</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1540846447737</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Fixed a bug with displaying calories in 100g of a meal">
+      <created>1540846489371</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1540846489371</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Added database connection restore">
+      <created>1540919482072</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1540919482072</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Rearranged packages">
+      <created>1541762776281</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1541762776281</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Fix">
+      <created>1541763021449</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1541763021449</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="310897000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Structure" order="0" sideWeight="0.50491804" side_tool="true" weight="0.12859304" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" sideWeight="0.50491804" side_tool="true" weight="0.12859304" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Web" order="6" sideWeight="0.50491804" side_tool="true" weight="0.12859304" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.49508196" visible="true" weight="0.15431164" />
+      <window_info anchor="bottom" id="SQL Generator" order="0" weight="0.3295082" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.8585476" weight="0.40819672" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.7776097" weight="0.3967213" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.2672131" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.3065574" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.13606557" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.22239032" side_tool="true" weight="0.50163937" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49924356" weight="0.3295082" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.13606557" />
+      <window_info anchor="bottom" id="Database Changes" order="13" weight="0.23770492" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.5409836" />
+      <window_info anchor="bottom" id="Inspection Results" order="15" sideWeight="0.49924356" weight="0.40983605" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Preview" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Structure" order="0" sideWeight="0.50491804" side_tool="true" weight="0.12859304" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" sideWeight="0.50491804" side_tool="true" weight="0.12859304" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Web" order="6" sideWeight="0.50491804" side_tool="true" weight="0.12859304" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.49508196" visible="true" weight="0.18003026" />
+      <window_info anchor="bottom" id="SQL Generator" order="0" weight="0.3295082" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.8585476" weight="0.40819672" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.7776097" weight="0.3967213" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.2672131" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.3065574" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.13606557" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.22239032" side_tool="true" weight="0.50163937" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49924356" weight="0.3295082" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.13606557" />
+      <window_info anchor="bottom" id="Database Changes" order="13" weight="0.23770492" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.5409836" />
+      <window_info anchor="bottom" id="Inspection Results" order="15" sideWeight="0.49924356" weight="0.40983605" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Preview" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="Fished everything for products except filtering" />
+    <MESSAGE value="Added products filtering" />
+    <MESSAGE value="Partially added views for dishes and meal plans, updated their DAOs" />
+    <MESSAGE value="Added additional inputs trimming and replacing comas, fixed filtering" />
+    <MESSAGE value="Fixed warnings and bugs" />
+    <MESSAGE value="Improved filtering" />
+    <MESSAGE value="Retried commit due to a bug" />
+    <MESSAGE value="Implemented everything associated with dishes except saving created entity" />
+    <MESSAGE value="Completed dishes" />
+    <MESSAGE value="Completed meal plans and schedule, but there is a problem with date synchronization between the app and the database" />
+    <MESSAGE value="Finished weight daybook and part of renaming dish to meal" />
+    <MESSAGE value="Finished renaming dish to meal, cleaned code and resolved warnings" />
+    <MESSAGE value="Added sorting during addition and creation of meals and meal plans, added dropdown lists with products on pages associated with meal plans" />
+    <MESSAGE value="Added time zone synchronization, changing app to MVC model" />
+    <MESSAGE value="Reverted to the state before starting MVC changes" />
+    <MESSAGE value="Added doGet servlet method for every .jsp file, changed some words that commission might not like" />
+    <MESSAGE value="Version 1.0 finished" />
+    <MESSAGE value="Added war artifact" />
+    <MESSAGE value="Changed MySQL connctor, added authentication to product, meal and meal plan edition" />
+    <MESSAGE value="Changed MySQL connctor, added authentication to product, meal and meal plan edition. Version v1.1 finished" />
+    <MESSAGE value="Fixed bug with counting everything" />
+    <MESSAGE value="Fixed a bug with displaying calories in 100g of a meal" />
+    <MESSAGE value="Added database connection restore" />
+    <MESSAGE value="Rearranged packages" />
+    <MESSAGE value="Fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>zoneOffset</expression-string>
+        <language-id>JSP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>request.getParameter(&quot;date&quot;)</expression-string>
+        <language-id>JSP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>httpServletRequest.getRequestURI()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/presentation/controller/servlets/DeleteProductServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/presentation/controller/servlets/DeleteWeightRecordServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="27" column="127" selection-start-line="27" selection-start-column="127" selection-end-line="27" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/presentation/controller/servlets/EditDemandsServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/presentation/controller/servlets/LogoutServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/presentation/controller/servlets/EditMealPlanServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="19" column="80" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/presentation/controller/filters/EncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/presentation/controller/servlets/ExcludeMealServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/unexpectedError.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/profile.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/dontSteal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/presentation/controller/servlets/DontStealServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/editMeal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="116" column="114" selection-start-line="116" selection-start-column="99" selection-end-line="116" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/sql/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="1110" column="70" lean-forward="true" selection-start-line="1110" selection-start-column="70" selection-end-line="1110" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/data/DatabaseConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/presentation/model/entities/MealInclusionEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/presentation/model/entities/MealPlanAssignmentEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/presentation/model/entities/MealPlanEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/presentation/model/entities/ProductInclusionEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/presentation/model/entities/UserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/presentation/model/entities/WeightRecordEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" selection-start-column="42" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/presentation/controller/servlets/EditMealInclusionServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/presentation/model/TemporaryModels.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/presentation/controller/servlets/IndexServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/layout/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/weightDaybook.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="262" column="63" selection-start-line="262" selection-start-column="63" selection-end-line="262" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/addMealPlan.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="250" column="56" selection-start-line="250" selection-start-column="56" selection-end-line="250" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/editMealPlan.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="250" column="56" selection-start-line="250" selection-start-column="56" selection-end-line="250" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Pomoce/Do zrobienia na koniec.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/editProduct.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/presentation/controller/servlets/EditMealServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/presentation/controller/servlets/EditProductServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/addMeal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-512">
+          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/mealPlans.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/meals.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/presentation/controller/servlets/AddMealPlanServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/presentation/model/entities/MealEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/data/dao/MealInclusionDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/data/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/data/dao/ProductInclusionDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/presentation/controller/servlets/ProductsServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="22" column="40" selection-start-line="22" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/products.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2669">
+          <caret line="157" column="20" selection-start-line="157" selection-end-line="158" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/presentation/controller/servlets/RegisterServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/presentation/controller/servlets/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" column="83" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/data/dao/ProductDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/data/dao/MealPlanDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/data/dao/WeightRecordDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" column="146" selection-start-line="27" selection-start-column="146" selection-end-line="27" selection-end-column="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/data/dao/MealPlanAssignmentDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="46" column="60" selection-start-line="46" selection-start-column="60" selection-end-line="46" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/data/dao/MealDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/presentation/controller/filters/TemporaryMealEntitiesFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/presentation/controller/filters/TemporaryMealPlanEntitiesFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dietactics/presentation/model/entities/ProductEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>dietactics:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>dietactics</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mysql-connector-java-5.1.47</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
