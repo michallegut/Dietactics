@@ -99,19 +99,19 @@
                 if (request.getParameter("mealAdded") != null) {
             %>
             <div class="alert alert-success" role="alert">
-                Posiłek została dodana pomyślnie
+                Posiłek został dodany pomyślnie
             </div>
             <%
             } else if (request.getParameter("mealChanged") != null) {
             %>
             <div class="alert alert-success" role="alert">
-                Posiłek została zmieniona pomyślnie
+                Posiłek został zmieniony pomyślnie
             </div>
             <%
             } else if (request.getParameter("mealDeleted") != null) {
             %>
             <div class="alert alert-success" role="alert">
-                Posiłek została usunięta pomyślnie
+                Posiłek został usunięty pomyślnie
             </div>
             <%
             } else if (request.getParameter("mealInMealPlan") != null) {

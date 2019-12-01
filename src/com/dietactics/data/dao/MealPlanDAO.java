@@ -48,8 +48,16 @@ public class MealPlanDAO {
     }
 
     public static void update(MealPlanEntity mealPlanEntity) throws ClassNotFoundException, SQLException, InstantiationException, IllegalAccessException {
-        delete(mealPlanEntity.getId());
-        create(mealPlanEntity);
+        MealInclusionDAO.deleteAllForMealPlan(mealPlanEntity.getId());
+        PreparedStatement preparedStatement = DatabaseConnector.getConnection().prepareStatement("UPDATE meal_plans SET name = ?, username = ? WHERE id = ?");
+        preparedStatement.setString(1, mealPlanEntity.getName());
+        preparedStatement.setString(2, mealPlanEntity.getUsername());
+        preparedStatement.setInt(3, mealPlanEntity.getId());
+        preparedStatement.executeUpdate();
+        for (MealInclusionEntity mealInclusionEntity : mealPlanEntity.getMealInclusionEntities()) {
+            mealInclusionEntity.setMealPlanId(mealPlanEntity.getId());
+            MealInclusionDAO.create(mealInclusionEntity);
+        }
     }
 
     public static void delete(int id) throws ClassNotFoundException, SQLException, InstantiationException, IllegalAccessException {

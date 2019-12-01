@@ -32,20 +32,20 @@ public class EditMealPlanServlet extends HttpServlet {
         try {
             String name = req.getParameter("name");
             if (name == null || name.isEmpty()) {
-                resp.sendRedirect("editMealPlan?emptyName");
+                resp.sendRedirect("editMealPlan?emptyName&id=" + req.getParameter("id"));
             } else {
                 name = name.trim();
                 if (name.length() > 50) {
-                    resp.sendRedirect("editMealPlan?nameTooLong");
+                    resp.sendRedirect("editMealPlan?nameTooLong&id=" + req.getParameter("id"));
                 } else {
                     String username = (String) req.getSession().getAttribute("username");
                     MealPlanEntity temporaryMealPlanEntity = TemporaryModels.getMealPlanEntityMap().get(username);
                     temporaryMealPlanEntity.setName(name);
                     if (temporaryMealPlanEntity.getMealInclusionEntities().isEmpty()) {
-                        resp.sendRedirect("editMealPlan?noMealsAdded");
+                        resp.sendRedirect("editMealPlan?noMealsAdded&id=" + req.getParameter("id"));
                     } else {
                         MealPlanDAO.update(temporaryMealPlanEntity);
-                        resp.sendRedirect("mealPlans?mealPlanChanged");
+                        resp.sendRedirect("mealPlans?mealPlanChanged&id=" + req.getParameter("id"));
                     }
                 }
             }

@@ -40,4 +40,10 @@ public class MealInclusionDAO {
         preparedStatement.executeUpdate();
     }
 
+    static void deleteAllForMealPlan(int mealPlanId) throws ClassNotFoundException, SQLException, InstantiationException, IllegalAccessException {
+        PreparedStatement preparedStatement = DatabaseConnector.getConnection().prepareStatement("DELETE FROM meals_inclusions WHERE meal_plan_id = ?");
+        preparedStatement.setInt(1, mealPlanId);
+        preparedStatement.executeUpdate();
+    }
+
 }

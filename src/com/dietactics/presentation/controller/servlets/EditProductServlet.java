@@ -39,7 +39,7 @@ public class EditProductServlet extends HttpServlet {
             String proteins = req.getParameter("proteins");
             if (name == null || kilocalories == null || carbohydrates == null || fats == null || proteins == null ||
                     name.isEmpty() || kilocalories.isEmpty() || carbohydrates.isEmpty() || fats.isEmpty() || proteins.isEmpty()) {
-                resp.sendRedirect("editProduct?emptyFields&id=" + req.);
+                resp.sendRedirect("editProduct?emptyFields&id=" + req.getParameter("id"));
             } else {
                 name = name.trim();
                 kilocalories = kilocalories.trim().replace(',', '.');
@@ -47,7 +47,7 @@ public class EditProductServlet extends HttpServlet {
                 fats = fats.trim().replace(',', '.');
                 proteins = proteins.trim().replace(',', '.');
                 if (name.length() > 50) {
-                    resp.sendRedirect("editProduct?nameTooLong");
+                    resp.sendRedirect("editProduct?nameTooLong&id=" + req.getParameter("id"));
                 } else {
                     double doubleKilocalories;
                     double doubleCarbohydrates;
@@ -59,15 +59,15 @@ public class EditProductServlet extends HttpServlet {
                         doubleFats = Double.parseDouble(fats);
                         doubleProteins = Double.parseDouble(proteins);
                     } catch (NumberFormatException e) {
-                        resp.sendRedirect("editProduct?textMacronutrients");
+                        resp.sendRedirect("editProduct?textMacronutrients&id=" + req.getParameter("id"));
                         return;
                     }
                     if (doubleKilocalories < doubleCarbohydrates * 4 + doubleFats * 9 + doubleProteins * 4) {
-                        resp.sendRedirect("editProduct?tooLowKilocalories");
+                        resp.sendRedirect("editProduct?tooLowKilocalories&id=" + req.getParameter("id"));
                     } else if (doubleKilocalories > 900) {
-                        resp.sendRedirect("editProduct?tooHighKilocalories");
+                        resp.sendRedirect("editProduct?tooHighKilocalories&id=" + req.getParameter("id"));
                     } else if (doubleCarbohydrates + doubleFats + doubleProteins > 100) {
-                        resp.sendRedirect("editProduct?tooMuchMacronutrients");
+                        resp.sendRedirect("editProduct?tooMuchMacronutrients&id=" + req.getParameter("id"));
                     } else {
                         ProductDAO.update(new ProductEntity(Integer.parseInt(req.getParameter("id")), name, doubleKilocalories, doubleCarbohydrates, doubleFats, doubleProteins, (String) req.getSession().getAttribute("username")));
                         resp.sendRedirect("products?productChanged");

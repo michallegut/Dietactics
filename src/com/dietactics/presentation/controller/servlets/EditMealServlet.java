@@ -29,17 +29,17 @@ public class EditMealServlet extends HttpServlet {
         try {
             String name = req.getParameter("name");
             if (name == null || name.isEmpty()) {
-                resp.sendRedirect("editMeal?emptyName");
+                resp.sendRedirect("editMeal?emptyName&id=" + req.getParameter("id"));
             } else {
                 name = name.trim();
                 if (name.length() > 50) {
-                    resp.sendRedirect("editMeal?nameTooLong");
+                    resp.sendRedirect("editMeal?nameTooLong&id=" + req.getParameter("id"));
                 } else {
                     String username = (String) req.getSession().getAttribute("username");
                     MealEntity temporaryMealEntity = TemporaryModels.getMealEntityMap().get(username);
                     temporaryMealEntity.setName(name);
                     if (temporaryMealEntity.getProductInclusionEntities().isEmpty()) {
-                        resp.sendRedirect("editMeal?noProductsAdded");
+                        resp.sendRedirect("editMeal?noProductsAdded&id=" + req.getParameter("id"));
                     } else {
                         MealDAO.update(temporaryMealEntity);
                         resp.sendRedirect("meals?mealChanged");

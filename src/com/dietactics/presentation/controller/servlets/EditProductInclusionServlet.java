@@ -14,11 +14,17 @@ public class EditProductInclusionServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         try {
+            String username = (String) req.getSession().getAttribute("username");
+            MealEntity temporaryMealEntity = TemporaryModels.getMealEntityMap().get(username);
             int amount;
             try {
                 amount = Integer.parseInt(req.getParameter("amount").trim());
             } catch (NumberFormatException e) {
-                resp.sendRedirect("addMeal?textAmount");
+                if (temporaryMealEntity.getId() == 0) {
+                    resp.sendRedirect("addMeal?textAmount");
+                } else {
+                    resp.sendRedirect("editMeal?textAmount");
+                }
                 return;
             }
             String mealName = req.getParameter("mealName");
@@ -27,8 +33,6 @@ public class EditProductInclusionServlet extends HttpServlet {
             } else {
                 mealName = mealName.trim();
             }
-            String username = (String) req.getSession().getAttribute("username");
-            MealEntity temporaryMealEntity = TemporaryModels.getMealEntityMap().get(username);
             temporaryMealEntity.setName(mealName);
             temporaryMealEntity.getProductInclusionEntities().stream().filter(productInclusionEntity -> productInclusionEntity.getProductId() == Integer.parseInt(req.getParameter("productId"))).findFirst().ifPresent(productInclusionEntity -> productInclusionEntity.setGrams(amount));
             if (temporaryMealEntity.getId() == 0) {

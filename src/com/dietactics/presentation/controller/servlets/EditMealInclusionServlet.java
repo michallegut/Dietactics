@@ -14,11 +14,17 @@ public class EditMealInclusionServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         try {
+            String username = (String) req.getSession().getAttribute("username");
+            MealPlanEntity temporaryMealPlanEntity = TemporaryModels.getMealPlanEntityMap().get(username);
             int amount;
             try {
                 amount = Integer.parseInt(req.getParameter("amount").trim());
             } catch (NumberFormatException e) {
-                resp.sendRedirect("addMealPlan?textAmount");
+                if (temporaryMealPlanEntity.getId() == 0) {
+                    resp.sendRedirect("addMealPlan?textAmount");
+                } else {
+                    resp.sendRedirect("editMealPlan");
+                }
                 return;
             }
             String mealPlanName = req.getParameter("mealPlanName");
@@ -27,8 +33,6 @@ public class EditMealInclusionServlet extends HttpServlet {
             } else {
                 mealPlanName = mealPlanName.trim();
             }
-            String username = (String) req.getSession().getAttribute("username");
-            MealPlanEntity temporaryMealPlanEntity = TemporaryModels.getMealPlanEntityMap().get(username);
             temporaryMealPlanEntity.setName(mealPlanName);
             temporaryMealPlanEntity.getMealInclusionEntities().stream().filter(mealInclusionEntity -> mealInclusionEntity.getMealId() == Integer.parseInt(req.getParameter("mealId"))).findFirst().ifPresent(mealInclusionEntity -> mealInclusionEntity.setGrams(amount));
             if (temporaryMealPlanEntity.getId() == 0) {
